@@ -78,7 +78,7 @@ public class Pontoon2 {
 		int card1;
 		int card2;
 		
-/* ** *//* Generate random values for the cards
+/* ********** *//* Generate random values for the cards
  		 * Will use a for loop here, otherwise there will be an infinite loop
  		 * Also, will use a placeholder variable (i) within the loop counter
  		*/
@@ -102,7 +102,7 @@ public class Pontoon2 {
 	} // Closing number generator function
 
 	
-/**//* Creating a function to display total hand value
+/* ** *//* Creating a function to display total hand value
  	 * This function will also ask the player if they want another card
  	 * Once the player makes a selection, an if statement will then call the appropreate function
  	*/
@@ -170,7 +170,7 @@ public class Pontoon2 {
 	} // Closing checkBust function
 	
 	
-/**//* Creating a checkWin function
+/* ** *//* Creating a checkWin function
  	 * This will use an if/else statement
  	*/
 	public static void checkWin() {
